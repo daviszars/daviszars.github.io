@@ -8,49 +8,64 @@
   <meta name="description" content="My portfolio website">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <link rel="stylesheet" href="reset.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   <script src="script.js"></script>
+
   <div class="main">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <!-- <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li> -->
-            <li class="nav-item">
-              <a class="nav-link" href="/privacypolicy.html">Privacy Policy</a>
-            </li>
-          </ul>
+
+    <div class="main-text">
+      <h1>I'm Davis, a developer from Latvia</h1>
+      <a>
+        <br><br><br>
+        <!-- haha html go <br><br><br>  -->
+        <p>Currently I study software engineering in Unverisity of Latvia</p>
+        <p>If you wish to contact me, please write me an <a href="mailto:davis.zarz@gmail.com">e-mail</a></p>
+      </a>
+    </div>
+    <img class="main-img" src="main-img.jpg" alt="">
+    <div class="arrow bounce"></div>
+
+  </div>
+
+  <div class="projects">
+
+    <h1>My projects</h1>
+    <hr><br>
+
+        <div class="card">
+          <img class="card-img-top" src="github.png" alt="">
+          <div class="card-body">
+            <h4 class="card-title">GitHub</h4>
+            <p class="card-text">View some of my projects on GitHub</p>
+            <a href="https://github.com/daviszars" class="btn btn-primary">View Profile</a>
+          </div>
         </div>
-      </div>
-    </nav>
-    <p class="main">I'm Davis, a developer from Latvia</p>
-    <p class="contact">
-      My e-mail: davis.zarz@gmail.com
-      <br><br>
-      <!-- haha html go <br><br><br> -->
-      This website is currently under construction
-    </p>
-    <!-- <div class="arrow bounce"></div> -->
+        <div class="card">
+          <img class="card-img-top" src="coloshape.png" alt="">
+          <div class="card-body">
+            <h4 class="card-title">ColoShape</h4>
+            <p class="card-text">View my app on App Store</p>
+            <a href="https://apps.apple.com/us/app/coloshape/id1545039898" class="btn btn-primary">View app</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="wip.png" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Work in Progress</h4>
+            <p class="card-text">...</p>
+            <a href="" class="btn btn-secondary disabled">Not yet available</a>
+          </div>
+        </div>
+
   </div>
-  <!-- <div class="box">
-    <h1>My apps</h1>
-  </div>
-  <div class="box">
-    <h1>Contact me</h1>
-    <p>Email: davis.zarz@gmail.com</p>
-  </div> -->
+
 </body>
 
 </html>
