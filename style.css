@@ -21,10 +21,15 @@ div.main {
   background-color: rgb(21, 21, 21);
 }
 div.main-text {
+  color: white;
+}
+.main-text h1 {
   color: rgb(108, 233, 133);
+  font-weight: bold;
+  font-size: 40pt;
 }
 a:link {
-  color: #00adb5;
+  color: #ff0000;
 }
 .links {
   color: #eeeeee;
@@ -110,6 +115,7 @@ h5 {
   margin: auto;
   width: 30%;
   padding-top: 20px;
+  margin-bottom: 20px;
 }
 /* footer */
 footer {
