@@ -5,6 +5,8 @@ body {
   letter-spacing: 2px;
   line-height: 1.5;
   font-size: 10pt;
+  background-color: #EEEEEE;
+  font-family: 'Montserrat', sans-serif;
 }
 /* main page */
 div.main {
@@ -15,10 +17,16 @@ div.main {
   text-align: center;
   color: white;
   overflow: hidden;
-  background-color: rgb(0, 0, 0, 0.85);
+  background-color: rgba(36, 36, 36, 0.9);
 }
 div.main-text {
-
+  color: #EEEEEE;
+}
+div.main-text a {
+  font-style: italic;
+}
+a:link {
+  color: #00ADB5;
 }
 .main-img {
   width: 100%;
@@ -28,21 +36,57 @@ div.main-text {
   left: 0;
   z-index: -1;
 }
-/* contact page */
-div.projects {
-  text-align: center;
-  padding: 50px;
+/* skills page */
+div.skills-page {
+  margin-top: 20px;
 }
-.card {
+div.skills-page {
+  text-align: center;
+}
+div.skills-page h1 {
+  color: #222831;
+  text-align: left;
+  margin-left: 100px;
+}
+div.skills-card {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #393E46;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 0px;
+  margin-bottom: 30px;
+  height: 100%;
+  padding-bottom: 30px;
+}
+h4 {
+  background-color: #393E46;
+  color: #EEEEEE;
+  padding: 10px;
+  margin-bottom: 30px;
+  height: 100%;
+}
+.skill h6 {
+  color: #222831;
+  display: inline;
+  margin: 15px;
+}
+.skill {
+  text-align: left;
+  margin: 10px 10px 10px 60px;
+}
+.container-fluid {
+  width: 90%;
+}
+/* .card {
   display:inline-block;
   border: none;
   margin-left: 15px;
   margin-right: 15px;
   padding-top: 15px;
-}
+} */
 /* arrow */
-.arrow
-{
+.arrow {
     position: absolute;
     bottom: 0rem;
     left: 50%;
