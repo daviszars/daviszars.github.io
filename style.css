@@ -23,10 +23,13 @@ div.main {
 div.main-text {
   color: white;
 }
-.main-text h1 {
+.main-text h1, h2 {
   color: rgb(108, 233, 133);
   font-weight: bold;
   font-size: 40pt;
+}
+.main-text h2 {
+  font-size: 20pt;
 }
 a:link {
   color: #ff0000;
