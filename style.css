@@ -31,21 +31,23 @@ body {
   color: white;
 }
 .main-text h1, h2, h3 {
-  color: rgb(108, 233, 133);
   line-height: 1;
-  font-weight: bold;
 }
 .main-text h1 {
   font-size: 120pt;
+  font-weight: 800;
   color: #eeeeee;
   opacity: 0.15;
   margin-bottom: -60px;
 }
 .main-text h2 {
   font-size: 25pt;
+  font-weight: bold;
+  color: rgb(108, 233, 133);
 }
 .main-text h3 {
   font-size: 15pt;
+  font-weight: 300;
   color: #eeeeee;
 }
 a:link {
