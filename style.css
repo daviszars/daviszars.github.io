@@ -15,7 +15,7 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("bg-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 5% 10% 5% 10%;
+  padding: 2% 10% 5% 10%;
   width: 100vw;
   min-height: 100vh;
   text-align: center;
@@ -29,18 +29,27 @@ body {
 }
 .main-text {
   color: white;
-  z-index: 2;
 }
-.main-text h1, h2 {
+.main-text h1, h2, h3 {
   color: rgb(108, 233, 133);
+  line-height: 1;
   font-weight: bold;
-  font-size: 40pt;
+}
+.main-text h1 {
+  font-size: 120pt;
+  color: #eeeeee;
+  opacity: 0.15;
+  margin-bottom: -60px;
 }
 .main-text h2 {
-  font-size: 20pt;
+  font-size: 25pt;
+}
+.main-text h3 {
+  font-size: 15pt;
+  color: #eeeeee;
 }
 a:link {
-  color: #ff0000;
+  color: rgb(108, 233, 133);
 }
 .links {
   color: #eeeeee;
@@ -54,11 +63,9 @@ a:link {
 }
 /* ---------------my skills--------------- */
 .skills-page {
-  margin-top: 20px;
-}
-.skills-page {
   text-align: center;
   padding-bottom: 30px;
+  min-height: 100vh;
 }
 .skills-page h1 {
   color: rgb(21, 21, 21);
@@ -66,23 +73,21 @@ a:link {
   padding-left: 10%;
   height: 10%;
   font-size: 3rem;
-  margin: 50px;
+  margin: 80px 50px 20px;
 }
 .skills-card {
-  border-style: solid;
-  border-width: 2px;
-  border-color: rgb(21, 21, 21);
-  border-radius: 20px;
+  border-radius: 10px;
+  background-color: #dfdfdf;
   overflow: hidden;
   padding: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   height: 100%;
   padding-bottom: 30px;
 }
 h5 {
-  background-color: rgb(21, 21, 21);
-  color: rgb(108, 233, 133);
-  padding: 10px;
+  background-color: black;
+  color: #eeeeee;
+  padding: 20px;
   margin-bottom: 30px;
   height: 100%;
 }
@@ -94,7 +99,6 @@ h5 {
 .skill {
   text-align: left;
   margin: 10px 10px 10px 60px;
-  padding: auto;
 }
 .skills-page i {
   width: 20px;
@@ -105,7 +109,6 @@ h5 {
 }
 /* ---------------ColoShape app--------------- */
 .coloshape {
-  /* background-color: rgb(21, 21, 21); */
   width: 100%;
   overflow: hidden;
 }
@@ -135,17 +138,18 @@ h5 {
 .coloshape h4 {
   text-align: center;
   color: #333333;
+  margin-bottom: 100px;
 }
 .coloshape-icon {
   display: block;
   text-align: center;
-  margin: 20px auto;
+  margin: 50px auto;
   width: 15%;
 }
 /* footer */
 footer {
-  background-color: rgb(21, 21, 21);
-  color: #eeeeee;
-  padding: 2rem;
+  background-color: black;
+  color: rgb(108, 233, 133);
+  padding: 8rem;
   text-align: center;
 }
