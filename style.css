@@ -1,5 +1,5 @@
 .fadein, .fadeonload {
-  opacity: 0;
+  /* opacity: 0; */
 }
 body {
   margin: 0;
