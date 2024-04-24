@@ -152,6 +152,15 @@ h5 {
   margin: 50px auto;
   width: 15%;
 }
+.appstore-icon {
+  display: block;
+  text-align: center;
+  margin: auto;
+  width: 10%;
+}
+.dz-icon {
+  width: 5%;
+}
 /* footer */
 footer {
   background-color: black;
