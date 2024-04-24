@@ -142,6 +142,10 @@ h5 {
   color: #333333;
   margin-bottom: 100px;
 }
+.coloshape h6 {
+  text-align: center;
+  color: #333333;
+}
 .coloshape-icon {
   display: block;
   text-align: center;
