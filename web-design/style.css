@@ -47,7 +47,6 @@ nav img {
   font-size: 18pt;
   font-weight: 450;
   margin-bottom: 4px;
-  /* -webkit-text-stroke: 0.4px #333333; */
 }
 
 .left:hover {
@@ -102,7 +101,6 @@ nav img {
   letter-spacing: 3px;
   position: relative;
   z-index: 5;
-  /* -webkit-text-stroke: 0.5px #333333; */
 }
 
 .content h2 {
@@ -111,8 +109,6 @@ nav img {
   color: #FFFFFF;
   letter-spacing: 5px;
   padding-bottom: 20px;
-  /* -webkit-text-stroke: 1px white;
-  color: rgba(0, 0, 0, 0); */
 }
 
 .content h3 {
@@ -178,7 +174,6 @@ nav img {
 }
 
 .places {
-  /* background-color: white; */
   flex-direction: column;
   overflow: hidden;
 }
@@ -211,7 +206,6 @@ nav img {
   margin-top: -20px;
   z-index: 5;
   position: relative;
-  /* -webkit-text-stroke: 0.5px #333333; */
 }
 
 .places .secondtext {
@@ -406,10 +400,7 @@ footer {
   color: #D0CDC8;
   padding-bottom: 100px;
   margin-top: 50px;
-  background-color: #181A1B;;
-  /* background-color: black; */
-  /* background-color: white; */
-  /* -webkit-text-stroke: 0.5px #333333; */
+  background-color: #181A1B;
 
 }
 
@@ -457,7 +448,7 @@ footer .logo {
 }
 
 .links {
-  color: #333333;
+  color: #D0CDC8;
   padding: 5px;
 }
 

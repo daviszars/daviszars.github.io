@@ -17,7 +17,7 @@ body {
 
 .dark-mode-text {
     color: #D0CDC8 !important;
-} 
+}
 
 /* -----header----- */
 header {
@@ -75,13 +75,13 @@ nav img {
     padding-left: 7px;
     padding-right: 7px;
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 7px;
 }
 
-/* Create four equal columns that sits next to each other */
 .column {
     flex: 25%;
     max-width: 25%;
@@ -89,18 +89,12 @@ nav img {
 }
 
 .column img {
-    /* transition: .8s ease-in-out; */
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
     border-radius: 4px;
 }
 
-/* .column img:hover {
-    transform: scale(1.05);
-} */
-
-/* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
     .column {
         flex: 50%;
@@ -108,10 +102,88 @@ nav img {
     }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
     .column {
         flex: 100%;
         max-width: 100%;
+    }
+}
+
+/* -----footer----- */
+footer {
+    font-family: 'Raleway', sans-serif;
+    color: #D0CDC8;
+    padding-bottom: 100px;
+    margin-top: 50px;
+    background-color: #181A1B;
+
+}
+
+.footertext {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+footer .logo {
+    width: 150px;
+    height: auto;
+    margin-left: 100px;
+    margin-bottom: 25px;
+    margin-top: 100px;
+}
+
+.contact,
+.follow {
+    flex: 1 1 calc(50% - 10px);
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.footertext .contacttext,
+.footertext .followtext {
+    color: #02ffc8;
+    font-weight: 1000;
+    font-size: 2.7em;
+    text-transform: uppercase;
+}
+
+.footertext .email {
+    font-size: 12pt;
+    font-weight: 450;
+}
+
+.email a:link {
+    color: #D0CDC8;
+}
+
+.email a:hover {
+    color: #02ffc8;
+}
+
+.links {
+    color: #D0CDC8;
+    padding: 5px;
+}
+
+.links:link {
+    color: #D0CDC8;
+}
+
+.links:hover {
+    color: #02ffc8;
+}
+
+@media screen and (max-width: 800px) {
+
+    .contact,
+    .follow {
+        flex: 1 1 100%;
+        margin: 5px 0;
+    }
+
+    .follow {
+        margin-bottom: 80px;
     }
 }

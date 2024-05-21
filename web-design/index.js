@@ -1,10 +1,11 @@
 const toggleImage = document.getElementById('darkModeToggle');
+const numbers = document.querySelectorAll('.number');
+const secondTexts = document.querySelectorAll('.secondtext');
+const thirdTexts = document.querySelectorAll('.thirdtext');
+const footer = document.getElementById('footer');
 
 const enableDarkMode = () => {
-    const numbers = document.querySelectorAll('.number');
-    const secondTexts = document.querySelectorAll('.secondtext');
-    const thirdTexts = document.querySelectorAll('.thirdtext');
-    const footer = document.getElementById('footer');
+
     document.body.classList.add('dark-mode-bg');
     numbers.forEach(element => {
         element.classList.add('dark-mode-text');
@@ -21,10 +22,6 @@ const enableDarkMode = () => {
 };
 
 const disableDarkMode = () => {
-    const numbers = document.querySelectorAll('.number');
-    const secondTexts = document.querySelectorAll('.secondtext');
-    const thirdTexts = document.querySelectorAll('.thirdtext');
-    const footer = document.getElementById('footer');
     document.body.classList.remove('dark-mode-bg');
     numbers.forEach(element => {
         element.classList.remove('dark-mode-text');
