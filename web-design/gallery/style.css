@@ -43,7 +43,7 @@ nav img {
 .left:hover {
     position: absolute;
     left: 20px;
-    color: #02ffc8;
+    color: black;
     font-size: 18pt;
     font-weight: 500;
     margin-bottom: 4px;

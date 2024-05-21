@@ -43,7 +43,7 @@ nav img {
 .left:hover {
   position: absolute;
   left: 20px;
-  color: #02ffc8;
+  color: white;
   font-size: 18pt;
   font-weight: 450;
   margin-bottom: 4px;
@@ -110,7 +110,6 @@ nav img {
   font-weight: 600;
   color: #FFFFFF;
   letter-spacing: 5px;
-  padding-left: 30px;
   padding-bottom: 20px;
   /* -webkit-text-stroke: 1px white;
   color: rgba(0, 0, 0, 0); */
@@ -182,6 +181,10 @@ nav img {
   /* background-color: white; */
   flex-direction: column;
   overflow: hidden;
+}
+
+.places .place-right:last-child {
+  margin-bottom: 50px;
 }
 
 .places img {

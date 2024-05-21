@@ -16,7 +16,7 @@ const enableDarkMode = () => {
         element.classList.add('dark-mode-text');
     });
     footer.style.backgroundColor = "#000000";
-    toggleImage.src = "sun.max.circle.fill.png";
+    toggleImage.src = "sun.max.circle.white.png";
     localStorage.setItem('darkMode', 'enabled');
 };
 
@@ -36,7 +36,7 @@ const disableDarkMode = () => {
         element.classList.remove('dark-mode-text');
     });
     footer.style.backgroundColor = "#181A1B";
-    toggleImage.src = "moon.circle.fill.png";
+    toggleImage.src = "moon.circle.white.png";
     localStorage.setItem('darkMode', 'disabled');
 };
 
