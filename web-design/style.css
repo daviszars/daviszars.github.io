@@ -215,11 +215,11 @@ nav img {
   text-align: left;
   margin-top: -45px;
   position: relative;
-  color: #333333;
+  color: #555555;
 }
 
 .places .thirdtext {
-  font-size: 12pt;
+  font-size: 14pt;
   text-align: left;
   font-weight: 400;
   letter-spacing: 1px;
@@ -245,11 +245,11 @@ nav img {
 }
 
 .place-right .secondtext {
-  left: 25px;
+  left: 50px;
 }
 
 .place-right .thirdtext {
-  margin-left: 40px;
+  margin-left: 80px;
 }
 
 .place-right img {
@@ -274,11 +274,12 @@ nav img {
 
 .place-left .secondtext {
   text-align: right;
-  right: 25px;
+  right: 50px;
 }
 
 .place-left .thirdtext {
-  margin-right: 40px;
+  margin-right: 80px;
+  text-align: right;
 }
 
 .place-left img {
@@ -390,7 +391,7 @@ nav img {
   }
 
   .places .thirdtext {
-    font-size: 9pt;
+    font-size: 11pt;
     width: 90vw;
     margin-left: auto;
     margin-right: auto;
