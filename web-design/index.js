@@ -8,7 +8,7 @@ const footer = document.getElementById('footer');
 const enableDarkMode = () => {
 
     document.body.classList.add('dark-mode-bg');
-    main.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("bg-img.jpeg")';
+    main.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("bg-img.jpeg")';
     numbers.forEach(element => {
         element.classList.add('dark-mode-text');
     });
