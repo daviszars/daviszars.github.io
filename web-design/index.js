@@ -1,4 +1,5 @@
 const toggleImage = document.getElementById('darkModeToggle');
+const main = document.getElementById('main');
 const numbers = document.querySelectorAll('.number');
 const secondTexts = document.querySelectorAll('.secondtext');
 const thirdTexts = document.querySelectorAll('.thirdtext');
@@ -7,6 +8,7 @@ const footer = document.getElementById('footer');
 const enableDarkMode = () => {
 
     document.body.classList.add('dark-mode-bg');
+    main.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("bg-img.jpeg")';
     numbers.forEach(element => {
         element.classList.add('dark-mode-text');
     });
@@ -23,6 +25,7 @@ const enableDarkMode = () => {
 
 const disableDarkMode = () => {
     document.body.classList.remove('dark-mode-bg');
+    main.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("bg-img.jpeg")';
     numbers.forEach(element => {
         element.classList.remove('dark-mode-text');
     });
