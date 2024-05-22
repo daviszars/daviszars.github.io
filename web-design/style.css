@@ -296,6 +296,10 @@ nav img {
     margin-right: auto;
   }
 
+  .places .thirdtext {
+    max-width: fit-content;
+  }
+
   .place-right,
   .place-left {
     flex-direction: column;
