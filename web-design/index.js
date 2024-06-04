@@ -3,6 +3,7 @@ const main = document.getElementById('main');
 const numbers = document.querySelectorAll('.number');
 const secondTexts = document.querySelectorAll('.secondtext');
 const thirdTexts = document.querySelectorAll('.thirdtext');
+const objectLinks = document.querySelectorAll('.object-links');
 const footer = document.getElementById('footer');
 
 const enableDarkMode = () => {
@@ -16,6 +17,9 @@ const enableDarkMode = () => {
         element.classList.add('dark-mode-text');
     });
     thirdTexts.forEach(element => {
+        element.classList.add('dark-mode-text');
+    });
+    objectLinks.forEach(element => {
         element.classList.add('dark-mode-text');
     });
     footer.style.backgroundColor = "#000000";
@@ -33,6 +37,9 @@ const disableDarkMode = () => {
         element.classList.remove('dark-mode-text');
     });
     thirdTexts.forEach(element => {
+        element.classList.remove('dark-mode-text');
+    });
+    objectLinks.forEach(element => {
         element.classList.remove('dark-mode-text');
     });
     footer.style.backgroundColor = "#181A1B";

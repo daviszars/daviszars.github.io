@@ -192,6 +192,18 @@ nav img {
   transform: scale(1.05);
 }
 
+.object-links {
+  font-weight: 450;
+}
+
+.object-links {
+  color: #333333;
+}
+
+.object-links:hover {
+  color: #02ffc8 !important;
+}
+
 .places .text {
   position: relative;
   top: 20px;
@@ -215,7 +227,7 @@ nav img {
   text-align: left;
   margin-top: -45px;
   position: relative;
-  color: #555555;
+  color: #484848;
 }
 
 .places .thirdtext {
